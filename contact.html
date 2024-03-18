@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container d-flex">
+        <header>
+            <div class="">
+                <img src="img/logo-resto-top.png" class="img-logo" alt="Logo du Resrtaurant" width="134" height="130">
+                <nav>
+                    <div class="row ml-2">
+                        <div class="menu-accueil">
+                            <div class="eclipse-menu"></div>
+                            <a href="index.html" class="accueil-menu">Accueil</a>
+                            <div class="line-menu"></div>
+                            <a href="menu.html" class="menu-menu">Menu</a>
+                            <div class="line-menu-2"></div>
+                            <a href="contact.html" class="contact-menu">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="french-flag">
+                    <div class="blue-flag"></div>
+                    <div class="white-flag"></div>
+                    <div class="red-flag"></div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="">
+                <img src="img/img-contact-one.jpg" class="img-contact-one" alt="Image Salle Restaurant" width="724px"
+                    height="544px">
+                <h1>Reservation</h1>
+                <form action="contact.html">
+                    <fieldset>
+                        <div>
+                            <label class="email-descript" for="emailinput">Votre e-MAIL :</label>
+                            <input class="input-mail" type="text" class="email-input" name="email" id="emailinput"
+                                placeholder="" required>
+                        </div>
+                        <div>
+                            <label class="tel-descript" for="tellinput">Numero de télèphone :</label>
+                            <input class="input-tel" type="tel" class="tel-input" name="email" id="telinput"
+                                placeholder="" required>
+                        </div>
+                        <div>
+                            <label class="number-descript" for="numberresa">Nombre de personnes :</label>
+                            <select class="menu-number" name="number" id="numberresa" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="date-descript" for="dateinput">Dates réservation :</label>
+                            <input type="date" class="date-input" name="week" id="dateinput" placeholder="" required>
+                        </div>
+                        <div>
+                            <input class="checkbox-midi" type="radio" name="service-midi" id="check-midi" >
+                            <label class="check-service-midi" for="check-midi">Midi</label>
+                        </div>
+                        <div>
+                            <input class="checkbox-soir" type="radio" name="service-soir" id="check-soir">
+                            <label class="check-service-soir" for="check-soir">Diner</label>
+                        </div>
+                        <div>
+                            <button class="btn-resa" type="submit">Confirmer la réservation</button>
+                        </div>     
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </div>
+    </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
